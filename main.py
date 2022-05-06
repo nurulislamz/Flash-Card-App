@@ -4,6 +4,7 @@ import re
 # input data
 st.title("Flash Cards")
 text = st.text_area("Insert flash cards here:", height=400)
+st.button("submit")
 
 # seperate questions from answers
 
