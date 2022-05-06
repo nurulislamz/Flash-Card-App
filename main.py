@@ -48,4 +48,4 @@ print(qa)
 
 for question in qa:
     expander = st.expander(question)
-    expander.text(qa[question])
+    expander.write(qa[question])
